@@ -26,7 +26,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
-                        @card
+                        @component('components.card')
                             @slot('title')
                             Tambah
                             @endslot
@@ -55,10 +55,10 @@
                                 </div>
                             </form>
                             @endslot
-                        @endcard
+                        @endcomponent
                     </div>
                     <div class="col-md-8">
-                        @card
+                        @component('components.card')
                             @slot('title')
                             List Kategori
                             @endslot
@@ -106,7 +106,7 @@
                             @slot('footer')
 
                             @endslot
-                        @endcard
+                        @endcomponent
                     </div>
                 </div>
             </div>
